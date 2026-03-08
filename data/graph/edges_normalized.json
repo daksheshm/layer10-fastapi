@@ -1,0 +1,371 @@
+[
+  {
+    "id": "edge_0",
+    "subject": "pyproject.toml",
+    "relation": "defines",
+    "object": "entrypoint",
+    "evidence": "",
+    "source_issue": 15075,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15075"
+  },
+  {
+    "id": "edge_1",
+    "subject": "route",
+    "relation": "uses",
+    "object": "methods",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070"
+  },
+  {
+    "id": "edge_2",
+    "subject": "methods",
+    "relation": "is",
+    "object": "set",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070"
+  },
+  {
+    "id": "edge_3",
+    "subject": "operationid",
+    "relation": "generated_by",
+    "object": "route.methods",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070"
+  },
+  {
+    "id": "edge_4",
+    "subject": "route.methods",
+    "relation": "uses",
+    "object": "list",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070"
+  },
+  {
+    "id": "edge_5",
+    "subject": "route.methods",
+    "relation": "uses",
+    "object": "set",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070"
+  },
+  {
+    "id": "edge_6",
+    "subject": "maintainer",
+    "relation": "requests",
+    "object": "label",
+    "evidence": "Could a maintainer please add the appropriate label?",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014143445"
+  },
+  {
+    "id": "edge_7",
+    "subject": "maintainer",
+    "relation": "requests",
+    "object": "bug fix",
+    "evidence": "I believe this is a bug fix. Thank you :)",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014143445"
+  },
+  {
+    "id": "edge_8",
+    "subject": "approach",
+    "relation": "uses",
+    "object": "operationid",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014225912"
+  },
+  {
+    "id": "edge_9",
+    "subject": "pr",
+    "relation": "defines",
+    "object": "issue",
+    "evidence": "doesn't fully solve the issue",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014225912"
+  },
+  {
+    "id": "edge_10",
+    "subject": "pr",
+    "relation": "depends_on",
+    "object": "github",
+    "evidence": "https://github.com/fastapi/fastapi/pull/10694",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014225912"
+  },
+  {
+    "id": "edge_11",
+    "subject": "pr",
+    "relation": "requires",
+    "object": "review",
+    "evidence": "by Sebastian",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014225912"
+  },
+  {
+    "id": "edge_12",
+    "subject": "issue",
+    "relation": "configures",
+    "object": "pr",
+    "evidence": "",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014225912"
+  },
+  {
+    "id": "edge_13",
+    "subject": "pr",
+    "relation": "requires",
+    "object": "feedback",
+    "evidence": "I appreciate the feedback",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014485947"
+  },
+  {
+    "id": "edge_14",
+    "subject": "pr",
+    "relation": "depends_on",
+    "object": "other",
+    "evidence": "will keep an eye on the other PR",
+    "source_issue": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014485947"
+  },
+  {
+    "id": "edge_15",
+    "subject": "merging this pr",
+    "relation": "will not alter",
+    "object": "performance",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3840172589"
+  },
+  {
+    "id": "edge_16",
+    "subject": "test",
+    "relation": "contains",
+    "object": "testforwardrefinannotation",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3843910003"
+  },
+  {
+    "id": "edge_17",
+    "subject": "testforwardrefinannotation",
+    "relation": "is_for",
+    "object": "annotation",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3843910003"
+  },
+  {
+    "id": "edge_18",
+    "subject": "testdependencywrapped.py",
+    "relation": "is_for",
+    "object": "test",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3843910003"
+  },
+  {
+    "id": "edge_19",
+    "subject": "forwardref",
+    "relation": "uses",
+    "object": "module",
+    "evidence": "as suggested",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3844948910"
+  },
+  {
+    "id": "edge_20",
+    "subject": "test",
+    "relation": "uses",
+    "object": "api",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3845554325"
+  },
+  {
+    "id": "edge_21",
+    "subject": "test",
+    "relation": "has",
+    "object": "copies",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3845554325"
+  },
+  {
+    "id": "edge_22",
+    "subject": "headsup",
+    "relation": "configures",
+    "object": "reminder",
+    "evidence": "will be closed in 3 days unless there's new activity",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-4008185704"
+  },
+  {
+    "id": "edge_23",
+    "subject": "pr",
+    "relation": "depends_on",
+    "object": "user",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-4014471156"
+  },
+  {
+    "id": "edge_24",
+    "subject": "pr",
+    "relation": "configures",
+    "object": "new pr",
+    "evidence": "",
+    "source_issue": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-4014471156"
+  },
+  {
+    "id": "edge_25",
+    "subject": "docs",
+    "relation": "defines",
+    "object": "pages",
+    "evidence": "",
+    "source_issue": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012326817"
+  },
+  {
+    "id": "edge_26",
+    "subject": "commit",
+    "relation": "defines",
+    "object": "docs",
+    "evidence": "",
+    "source_issue": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012326817"
+  },
+  {
+    "id": "edge_27",
+    "subject": "fastapi",
+    "relation": "defines",
+    "object": "tiangolo",
+    "evidence": "",
+    "source_issue": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012326817"
+  },
+  {
+    "id": "edge_28",
+    "subject": "tiangolo",
+    "relation": "uses",
+    "object": "automated workflow",
+    "evidence": "",
+    "source_issue": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012452220"
+  },
+  {
+    "id": "edge_29",
+    "subject": "contributors",
+    "relation": "requires",
+    "object": "translations",
+    "evidence": "",
+    "source_issue": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012452220"
+  },
+  {
+    "id": "edge_30",
+    "subject": "tiangolo",
+    "relation": "defines",
+    "object": "prs",
+    "evidence": "",
+    "source_issue": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012452220"
+  },
+  {
+    "id": "edge_31",
+    "subject": "fastapi",
+    "relation": "uses",
+    "object": "openapi",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_32",
+    "subject": "fastapi",
+    "relation": "supports",
+    "object": "swagger ui",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_33",
+    "subject": "fastapi",
+    "relation": "uses",
+    "object": "pydantic",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_34",
+    "subject": "fastapi",
+    "relation": "supports",
+    "object": "graphql",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_35",
+    "subject": "tiangolo",
+    "relation": "author",
+    "object": "fastapi",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_36",
+    "subject": "fastapi",
+    "relation": "supports",
+    "object": "sql databases",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_37",
+    "subject": "fastapi",
+    "relation": "serves",
+    "object": "static files",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_38",
+    "subject": "fastapi",
+    "relation": "handles",
+    "object": "stream json lines",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_39",
+    "subject": "fastapi",
+    "relation": "includes",
+    "object": "testing",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  },
+  {
+    "id": "edge_40",
+    "subject": "fastapi",
+    "relation": "uses",
+    "object": "virtual environments",
+    "evidence": "",
+    "source_issue": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061#issuecomment-4005532733"
+  }
+]

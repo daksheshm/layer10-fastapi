@@ -1,0 +1,23 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+requests==2.32.3
+tqdm==4.66.4
+
+# NLP / embeddings (no GPU required)
+scikit-learn==1.5.1
+numpy==1.26.4
+
+# Graph serialisation
+networkx==3.3
+
+# Visualization (generates self-contained HTML)
+pyvis==0.3.2
+
+# Fuzzy string matching for deduplication
+rapidfuzz==3.9.3
+
+# Schema validation
+jsonschema==4.22.0
+
+# Utility
+python-dotenv==1.0.1

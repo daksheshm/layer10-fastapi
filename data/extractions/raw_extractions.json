@@ -1,0 +1,2620 @@
+[
+  {
+    "chunk_id": "issue_15075_body_chunk_0",
+    "artifact_id": "issue_15075_body",
+    "issue_number": 15075,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15075",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7530>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15070_body_chunk_0",
+    "artifact_id": "issue_15070_body",
+    "issue_number": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da69f0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15070_comment_4014143445_chunk_0",
+    "artifact_id": "issue_15070_comment_4014143445",
+    "issue_number": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014143445",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccf50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15070_comment_4014225912_chunk_0",
+    "artifact_id": "issue_15070_comment_4014225912",
+    "issue_number": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014225912",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7500>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15070_comment_4014485947_chunk_0",
+    "artifact_id": "issue_15070_comment_4014485947",
+    "issue_number": 15070,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15070#issuecomment-4014485947",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcde50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14808_body_chunk_0",
+    "artifact_id": "issue_14808_body",
+    "issue_number": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7ec0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14808_comment_3843910003_chunk_0",
+    "artifact_id": "issue_14808_comment_3843910003",
+    "issue_number": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3843910003",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd340>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14808_comment_3844948910_chunk_0",
+    "artifact_id": "issue_14808_comment_3844948910",
+    "issue_number": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3844948910",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6d80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14808_comment_3845554325_chunk_0",
+    "artifact_id": "issue_14808_comment_3845554325",
+    "issue_number": 14808,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14808#issuecomment-3845554325",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdbb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15068_body_chunk_0",
+    "artifact_id": "issue_15068_body",
+    "issue_number": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7380>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15068_comment_4012452220_chunk_0",
+    "artifact_id": "issue_15068_comment_4012452220",
+    "issue_number": 15068,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15068#issuecomment-4012452220",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccec0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15061_body_chunk_0",
+    "artifact_id": "issue_15061_body",
+    "issue_number": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6ff0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15061_body_chunk_1",
+    "artifact_id": "issue_15061_body",
+    "issue_number": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc6e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15061_body_chunk_2",
+    "artifact_id": "issue_15061_body",
+    "issue_number": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6db0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15061_body_chunk_3",
+    "artifact_id": "issue_15061_body",
+    "issue_number": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccaa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15061_body_chunk_4",
+    "artifact_id": "issue_15061_body",
+    "issue_number": 15061,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15061",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7500>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15063_body_chunk_0",
+    "artifact_id": "issue_15063_body",
+    "issue_number": 15063,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15063",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc3b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15064_body_chunk_0",
+    "artifact_id": "issue_15064_body",
+    "issue_number": 15064,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15064",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15062_body_chunk_0",
+    "artifact_id": "issue_15062_body",
+    "issue_number": 15062,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15062",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcce30>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15058_body_chunk_0",
+    "artifact_id": "issue_15058_body",
+    "issue_number": 15058,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15058",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6f90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15008_body_chunk_0",
+    "artifact_id": "issue_15008_body",
+    "issue_number": 15008,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15008",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc5f0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15057_body_chunk_0",
+    "artifact_id": "issue_15057_body",
+    "issue_number": 15057,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15057",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7b60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15045_body_chunk_0",
+    "artifact_id": "issue_15045_body",
+    "issue_number": 15045,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15045",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd400>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15045_comment_3994314078_chunk_0",
+    "artifact_id": "issue_15045_comment_3994314078",
+    "issue_number": 15045,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15045#issuecomment-3994314078",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6540>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15045_comment_3995723294_chunk_0",
+    "artifact_id": "issue_15045_comment_3995723294",
+    "issue_number": 15045,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15045#issuecomment-3995723294",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd550>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15045_comment_4002338311_chunk_0",
+    "artifact_id": "issue_15045_comment_4002338311",
+    "issue_number": 15045,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15045#issuecomment-4002338311",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6ae0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15049_body_chunk_0",
+    "artifact_id": "issue_15049_body",
+    "issue_number": 15049,
+    "source_url": "https://github.com/fastapi/fastapi/issues/15049",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccf50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15048_body_chunk_0",
+    "artifact_id": "issue_15048_body",
+    "issue_number": 15048,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15048",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6810>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15048_comment_3998406610_chunk_0",
+    "artifact_id": "issue_15048_comment_3998406610",
+    "issue_number": 15048,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15048#issuecomment-3998406610",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd550>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14944_body_chunk_0",
+    "artifact_id": "issue_14944_body",
+    "issue_number": 14944,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14944",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14944_comment_3939488806_chunk_0",
+    "artifact_id": "issue_14944_comment_3939488806",
+    "issue_number": 14944,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14944#issuecomment-3939488806",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd5b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14944_comment_3939506265_chunk_0",
+    "artifact_id": "issue_14944_comment_3939506265",
+    "issue_number": 14944,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14944#issuecomment-3939506265",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6f60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14944_comment_3939713408_chunk_0",
+    "artifact_id": "issue_14944_comment_3939713408",
+    "issue_number": 14944,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14944#issuecomment-3939713408",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc3e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14944_comment_3940282397_chunk_0",
+    "artifact_id": "issue_14944_comment_3940282397",
+    "issue_number": 14944,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14944#issuecomment-3940282397",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6d20>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14944_comment_3942524366_chunk_0",
+    "artifact_id": "issue_14944_comment_3942524366",
+    "issue_number": 14944,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14944#issuecomment-3942524366",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccb60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15001_body_chunk_0",
+    "artifact_id": "issue_15001_body",
+    "issue_number": 15001,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15001",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6540>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14942_body_chunk_0",
+    "artifact_id": "issue_14942_body",
+    "issue_number": 14942,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14942",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc290>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14942_comment_3993043328_chunk_0",
+    "artifact_id": "issue_14942_comment_3993043328",
+    "issue_number": 14942,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14942#issuecomment-3993043328",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da72c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14942_comment_3993118403_chunk_0",
+    "artifact_id": "issue_14942_comment_3993118403",
+    "issue_number": 14942,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14942#issuecomment-3993118403",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccaa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14948_body_chunk_0",
+    "artifact_id": "issue_14948_body",
+    "issue_number": 14948,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14948",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5c10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14948_body_chunk_1",
+    "artifact_id": "issue_14948_body",
+    "issue_number": 14948,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14948",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc050>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14948_body_chunk_2",
+    "artifact_id": "issue_14948_body",
+    "issue_number": 14948,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14948",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6870>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14948_body_chunk_3",
+    "artifact_id": "issue_14948_body",
+    "issue_number": 14948,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14948",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdd60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15043_body_chunk_0",
+    "artifact_id": "issue_15043_body",
+    "issue_number": 15043,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15043",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7680>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_10979_body_chunk_0",
+    "artifact_id": "issue_10979_body",
+    "issue_number": 10979,
+    "source_url": "https://github.com/fastapi/fastapi/pull/10979",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc950>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_10979_comment_2362093295_chunk_0",
+    "artifact_id": "issue_10979_comment_2362093295",
+    "issue_number": 10979,
+    "source_url": "https://github.com/fastapi/fastapi/pull/10979#issuecomment-2362093295",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da64b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_10979_comment_3988027894_chunk_0",
+    "artifact_id": "issue_10979_comment_3988027894",
+    "issue_number": 10979,
+    "source_url": "https://github.com/fastapi/fastapi/pull/10979#issuecomment-3988027894",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc650>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15026_body_chunk_0",
+    "artifact_id": "issue_15026_body",
+    "issue_number": 15026,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15026",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7aa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15026_comment_3976882510_chunk_0",
+    "artifact_id": "issue_15026_comment_3976882510",
+    "issue_number": 15026,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15026#issuecomment-3976882510",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc380>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15026_comment_3987817005_chunk_0",
+    "artifact_id": "issue_15026_comment_3987817005",
+    "issue_number": 15026,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15026#issuecomment-3987817005",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6900>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_0",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd130>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_1",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7770>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_2",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc560>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_3",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6f00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_4",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc0b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_5",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7080>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15035_body_chunk_6",
+    "artifact_id": "issue_15035_body",
+    "issue_number": 15035,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15035",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd5e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15034_body_chunk_0",
+    "artifact_id": "issue_15034_body",
+    "issue_number": 15034,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15034",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5c70>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15034_body_chunk_1",
+    "artifact_id": "issue_15034_body",
+    "issue_number": 15034,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15034",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc650>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15034_body_chunk_2",
+    "artifact_id": "issue_15034_body",
+    "issue_number": 15034,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15034",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da74d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15034_body_chunk_3",
+    "artifact_id": "issue_15034_body",
+    "issue_number": 15034,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15034",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc7d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15034_body_chunk_4",
+    "artifact_id": "issue_15034_body",
+    "issue_number": 15034,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15034",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6900>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15034_body_chunk_5",
+    "artifact_id": "issue_15034_body",
+    "issue_number": 15034,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15034",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccd40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_0",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5d60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_1",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcce90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_2",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7c80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_3",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc650>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_4",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6e40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_5",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc7d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_6",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da73e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15033_body_chunk_7",
+    "artifact_id": "issue_15033_body",
+    "issue_number": 15033,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15033",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccd40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_0",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7860>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_1",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcce90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_2",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6900>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_3",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc650>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_4",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7b60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_5",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc7d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_6",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da71d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_7",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccd40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15032_body_chunk_8",
+    "artifact_id": "issue_15032_body",
+    "issue_number": 15032,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15032",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15020_body_chunk_0",
+    "artifact_id": "issue_15020_body",
+    "issue_number": 15020,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15020",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdca0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15020_body_chunk_1",
+    "artifact_id": "issue_15020_body",
+    "issue_number": 15020,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15020",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da76b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15020_body_chunk_2",
+    "artifact_id": "issue_15020_body",
+    "issue_number": 15020,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15020",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd490>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15020_body_chunk_3",
+    "artifact_id": "issue_15020_body",
+    "issue_number": 15020,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15020",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5df0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15019_body_chunk_0",
+    "artifact_id": "issue_15019_body",
+    "issue_number": 15019,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15019",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd7c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15019_body_chunk_1",
+    "artifact_id": "issue_15019_body",
+    "issue_number": 15019,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15019",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da77d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15019_body_chunk_2",
+    "artifact_id": "issue_15019_body",
+    "issue_number": 15019,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15019",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccf80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15019_body_chunk_3",
+    "artifact_id": "issue_15019_body",
+    "issue_number": 15019,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15019",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15025_body_chunk_0",
+    "artifact_id": "issue_15025_body",
+    "issue_number": 15025,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15025",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd7c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15025_comment_3984051778_chunk_0",
+    "artifact_id": "issue_15025_comment_3984051778",
+    "issue_number": 15025,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15025#issuecomment-3984051778",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da68d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15038_body_chunk_0",
+    "artifact_id": "issue_15038_body",
+    "issue_number": 15038,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15038",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccf80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15037_body_chunk_0",
+    "artifact_id": "issue_15037_body",
+    "issue_number": 15037,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15037",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7860>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15007_body_chunk_0",
+    "artifact_id": "issue_15007_body",
+    "issue_number": 15007,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15007",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd340>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15007_comment_3967759013_chunk_0",
+    "artifact_id": "issue_15007_comment_3967759013",
+    "issue_number": 15007,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15007#issuecomment-3967759013",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da74a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15007_comment_3979896632_chunk_0",
+    "artifact_id": "issue_15007_comment_3979896632",
+    "issue_number": 15007,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15007#issuecomment-3979896632",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dce420>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15029_body_chunk_0",
+    "artifact_id": "issue_15029_body",
+    "issue_number": 15029,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15029",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7d40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15036_body_chunk_0",
+    "artifact_id": "issue_15036_body",
+    "issue_number": 15036,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15036",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc800>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15031_body_chunk_0",
+    "artifact_id": "issue_15031_body",
+    "issue_number": 15031,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15031",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6990>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15030_body_chunk_0",
+    "artifact_id": "issue_15030_body",
+    "issue_number": 15030,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15030",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd7f0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15028_body_chunk_0",
+    "artifact_id": "issue_15028_body",
+    "issue_number": 15028,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15028",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7d40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15022_body_chunk_0",
+    "artifact_id": "issue_15022_body",
+    "issue_number": 15022,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15022",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd8e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15024_body_chunk_0",
+    "artifact_id": "issue_15024_body",
+    "issue_number": 15024,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15024",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6990>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15023_body_chunk_0",
+    "artifact_id": "issue_15023_body",
+    "issue_number": 15023,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15023",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccb90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14680_body_chunk_0",
+    "artifact_id": "issue_14680_body",
+    "issue_number": 14680,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14680",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7d40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14680_comment_3732162288_chunk_0",
+    "artifact_id": "issue_14680_comment_3732162288",
+    "issue_number": 14680,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14680#issuecomment-3732162288",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc6b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14680_comment_3763665883_chunk_0",
+    "artifact_id": "issue_14680_comment_3763665883",
+    "issue_number": 14680,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14680#issuecomment-3763665883",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6990>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14680_comment_3763715590_chunk_0",
+    "artifact_id": "issue_14680_comment_3763715590",
+    "issue_number": 14680,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14680#issuecomment-3763715590",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd100>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14680_comment_3974627709_chunk_0",
+    "artifact_id": "issue_14680_comment_3974627709",
+    "issue_number": 14680,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14680#issuecomment-3974627709",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7d40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14681_body_chunk_0",
+    "artifact_id": "issue_14681_body",
+    "issue_number": 14681,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14681",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc6e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14681_comment_3738536113_chunk_0",
+    "artifact_id": "issue_14681_comment_3738536113",
+    "issue_number": 14681,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14681#issuecomment-3738536113",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7d70>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14681_comment_3926680228_chunk_0",
+    "artifact_id": "issue_14681_comment_3926680228",
+    "issue_number": 14681,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14681#issuecomment-3926680228",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc2f0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14681_comment_3926681377_chunk_0",
+    "artifact_id": "issue_14681_comment_3926681377",
+    "issue_number": 14681,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14681#issuecomment-3926681377",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5df0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14681_comment_3942700967_chunk_0",
+    "artifact_id": "issue_14681_comment_3942700967",
+    "issue_number": 14681,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14681#issuecomment-3942700967",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdd60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_body_chunk_0",
+    "artifact_id": "issue_14953_body",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5c40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3938390963_chunk_0",
+    "artifact_id": "issue_14953_comment_3938390963",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3938390963",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3938390963_chunk_1",
+    "artifact_id": "issue_14953_comment_3938390963",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3938390963",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6510>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3938390963_chunk_2",
+    "artifact_id": "issue_14953_comment_3938390963",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3938390963",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc4a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3938413640_chunk_0",
+    "artifact_id": "issue_14953_comment_3938413640",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3938413640",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7590>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3938426393_chunk_0",
+    "artifact_id": "issue_14953_comment_3938426393",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3938426393",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd5b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3938444919_chunk_0",
+    "artifact_id": "issue_14953_comment_3938444919",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3938444919",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da71d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3972168126_chunk_0",
+    "artifact_id": "issue_14953_comment_3972168126",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3972168126",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc1d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14953_comment_3973958480_chunk_0",
+    "artifact_id": "issue_14953_comment_3973958480",
+    "issue_number": 14953,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14953#issuecomment-3973958480",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da76b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14979_body_chunk_0",
+    "artifact_id": "issue_14979_body",
+    "issue_number": 14979,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14979",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcccb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14992_body_chunk_0",
+    "artifact_id": "issue_14992_body",
+    "issue_number": 14992,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14992",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7260>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15018_body_chunk_0",
+    "artifact_id": "issue_15018_body",
+    "issue_number": 15018,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15018",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc1a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15017_body_chunk_0",
+    "artifact_id": "issue_15017_body",
+    "issue_number": 15017,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15017",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da64e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15016_body_chunk_0",
+    "artifact_id": "issue_15016_body",
+    "issue_number": 15016,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15016",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15015_body_chunk_0",
+    "artifact_id": "issue_15015_body",
+    "issue_number": 15015,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15015",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5d90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15013_body_chunk_0",
+    "artifact_id": "issue_15013_body",
+    "issue_number": 15013,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15013",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc800>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15012_body_chunk_0",
+    "artifact_id": "issue_15012_body",
+    "issue_number": 15012,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15012",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7980>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15014_body_chunk_0",
+    "artifact_id": "issue_15014_body",
+    "issue_number": 15014,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15014",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc050>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15011_body_chunk_0",
+    "artifact_id": "issue_15011_body",
+    "issue_number": 15011,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15011",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6f90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15010_body_chunk_0",
+    "artifact_id": "issue_15010_body",
+    "issue_number": 15010,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15010",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc1d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15009_body_chunk_0",
+    "artifact_id": "issue_15009_body",
+    "issue_number": 15009,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15009",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5e50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14599_body_chunk_0",
+    "artifact_id": "issue_14599_body",
+    "issue_number": 14599,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14599",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dce420>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15004_body_chunk_0",
+    "artifact_id": "issue_15004_body",
+    "issue_number": 15004,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15004",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6f90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15004_comment_3962660790_chunk_0",
+    "artifact_id": "issue_15004_comment_3962660790",
+    "issue_number": 15004,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15004#issuecomment-3962660790",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc1d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15005_body_chunk_0",
+    "artifact_id": "issue_15005_body",
+    "issue_number": 15005,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15005",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7920>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_15005_comment_3965011007_chunk_0",
+    "artifact_id": "issue_15005_comment_3965011007",
+    "issue_number": 15005,
+    "source_url": "https://github.com/fastapi/fastapi/pull/15005#issuecomment-3965011007",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccaa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14982_body_chunk_0",
+    "artifact_id": "issue_14982_body",
+    "issue_number": 14982,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14982",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7800>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14994_body_chunk_0",
+    "artifact_id": "issue_14994_body",
+    "issue_number": 14994,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14994",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcca10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14993_body_chunk_0",
+    "artifact_id": "issue_14993_body",
+    "issue_number": 14993,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14993",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6570>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14993_comment_3957489309_chunk_0",
+    "artifact_id": "issue_14993_comment_3957489309",
+    "issue_number": 14993,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14993#issuecomment-3957489309",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdd60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14999_body_chunk_0",
+    "artifact_id": "issue_14999_body",
+    "issue_number": 14999,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14999",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da72f0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14999_comment_3957387794_chunk_0",
+    "artifact_id": "issue_14999_comment_3957387794",
+    "issue_number": 14999,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14999#issuecomment-3957387794",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccfe0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14997_body_chunk_0",
+    "artifact_id": "issue_14997_body",
+    "issue_number": 14997,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14997",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6570>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14997_comment_3957375816_chunk_0",
+    "artifact_id": "issue_14997_comment_3957375816",
+    "issue_number": 14997,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14997#issuecomment-3957375816",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd4c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14996_body_chunk_0",
+    "artifact_id": "issue_14996_body",
+    "issue_number": 14996,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14996",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6cf0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14996_comment_3957355819_chunk_0",
+    "artifact_id": "issue_14996_comment_3957355819",
+    "issue_number": 14996,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14996#issuecomment-3957355819",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd580>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14995_body_chunk_0",
+    "artifact_id": "issue_14995_body",
+    "issue_number": 14995,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14995",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da71d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14995_comment_3957313630_chunk_0",
+    "artifact_id": "issue_14995_comment_3957313630",
+    "issue_number": 14995,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14995#issuecomment-3957313630",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd280>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14932_body_chunk_0",
+    "artifact_id": "issue_14932_body",
+    "issue_number": 14932,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14932",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7320>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14932_comment_3913075784_chunk_0",
+    "artifact_id": "issue_14932_comment_3913075784",
+    "issue_number": 14932,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14932#issuecomment-3913075784",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd580>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14932_comment_3913076580_chunk_0",
+    "artifact_id": "issue_14932_comment_3913076580",
+    "issue_number": 14932,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14932#issuecomment-3913076580",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14932_comment_3957090081_chunk_0",
+    "artifact_id": "issue_14932_comment_3957090081",
+    "issue_number": 14932,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14932#issuecomment-3957090081",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5be0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14932_comment_3957277024_chunk_0",
+    "artifact_id": "issue_14932_comment_3957277024",
+    "issue_number": 14932,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14932#issuecomment-3957277024",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd5b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14925_body_chunk_0",
+    "artifact_id": "issue_14925_body",
+    "issue_number": 14925,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14925",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7c50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14925_comment_3903444605_chunk_0",
+    "artifact_id": "issue_14925_comment_3903444605",
+    "issue_number": 14925,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14925#issuecomment-3903444605",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc860>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14925_comment_3903525481_chunk_0",
+    "artifact_id": "issue_14925_comment_3903525481",
+    "issue_number": 14925,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14925#issuecomment-3903525481",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7950>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14925_comment_3905004351_chunk_0",
+    "artifact_id": "issue_14925_comment_3905004351",
+    "issue_number": 14925,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14925#issuecomment-3905004351",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd730>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14925_comment_3919497264_chunk_0",
+    "artifact_id": "issue_14925_comment_3919497264",
+    "issue_number": 14925,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14925#issuecomment-3919497264",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7b00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_11000_body_chunk_0",
+    "artifact_id": "issue_11000_body",
+    "issue_number": 11000,
+    "source_url": "https://github.com/fastapi/fastapi/pull/11000",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccf50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_11000_comment_1902668073_chunk_0",
+    "artifact_id": "issue_11000_comment_1902668073",
+    "issue_number": 11000,
+    "source_url": "https://github.com/fastapi/fastapi/pull/11000#issuecomment-1902668073",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da68a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_11000_comment_1912119784_chunk_0",
+    "artifact_id": "issue_11000_comment_1912119784",
+    "issue_number": 11000,
+    "source_url": "https://github.com/fastapi/fastapi/pull/11000#issuecomment-1912119784",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd940>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_11000_comment_1912131084_chunk_0",
+    "artifact_id": "issue_11000_comment_1912131084",
+    "issue_number": 11000,
+    "source_url": "https://github.com/fastapi/fastapi/pull/11000#issuecomment-1912131084",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6b70>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_11000_comment_1913087793_chunk_0",
+    "artifact_id": "issue_11000_comment_1913087793",
+    "issue_number": 11000,
+    "source_url": "https://github.com/fastapi/fastapi/pull/11000#issuecomment-1913087793",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd490>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14987_body_chunk_0",
+    "artifact_id": "issue_14987_body",
+    "issue_number": 14987,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14987",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14991_body_chunk_0",
+    "artifact_id": "issue_14991_body",
+    "issue_number": 14991,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14991",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14991_comment_3953056195_chunk_0",
+    "artifact_id": "issue_14991_comment_3953056195",
+    "issue_number": 14991,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14991#issuecomment-3953056195",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da71a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14988_body_chunk_0",
+    "artifact_id": "issue_14988_body",
+    "issue_number": 14988,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14988",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccb60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14989_body_chunk_0",
+    "artifact_id": "issue_14989_body",
+    "issue_number": 14989,
+    "source_url": "https://github.com/fastapi/fastapi/issues/14989",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da67e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14984_body_chunk_0",
+    "artifact_id": "issue_14984_body",
+    "issue_number": 14984,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14984",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc710>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14984_comment_3949830707_chunk_0",
+    "artifact_id": "issue_14984_comment_3949830707",
+    "issue_number": 14984,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14984#issuecomment-3949830707",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6c60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14984_comment_3951053193_chunk_0",
+    "artifact_id": "issue_14984_comment_3951053193",
+    "issue_number": 14984,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14984#issuecomment-3951053193",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc770>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14986_body_chunk_0",
+    "artifact_id": "issue_14986_body",
+    "issue_number": 14986,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14986",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7b90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14985_body_chunk_0",
+    "artifact_id": "issue_14985_body",
+    "issue_number": 14985,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14985",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd040>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14985_comment_3949923723_chunk_0",
+    "artifact_id": "issue_14985_comment_3949923723",
+    "issue_number": 14985,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14985#issuecomment-3949923723",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5a90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14981_body_chunk_0",
+    "artifact_id": "issue_14981_body",
+    "issue_number": 14981,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14981",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcce60>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14981_comment_3947536063_chunk_0",
+    "artifact_id": "issue_14981_comment_3947536063",
+    "issue_number": 14981,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14981#issuecomment-3947536063",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6930>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14962_body_chunk_0",
+    "artifact_id": "issue_14962_body",
+    "issue_number": 14962,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14962",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc7a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14962_comment_3941326864_chunk_0",
+    "artifact_id": "issue_14962_comment_3941326864",
+    "issue_number": 14962,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14962#issuecomment-3941326864",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6840>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14962_comment_3941348421_chunk_0",
+    "artifact_id": "issue_14962_comment_3941348421",
+    "issue_number": 14962,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14962#issuecomment-3941348421",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdd90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14962_comment_3942893242_chunk_0",
+    "artifact_id": "issue_14962_comment_3942893242",
+    "issue_number": 14962,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14962#issuecomment-3942893242",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14962_comment_3943230756_chunk_0",
+    "artifact_id": "issue_14962_comment_3943230756",
+    "issue_number": 14962,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14962#issuecomment-3943230756",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccf80>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14962_comment_3947509784_chunk_0",
+    "artifact_id": "issue_14962_comment_3947509784",
+    "issue_number": 14962,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14962#issuecomment-3947509784",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7440>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14978_body_chunk_0",
+    "artifact_id": "issue_14978_body",
+    "issue_number": 14978,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14978",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdf70>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_body_chunk_0",
+    "artifact_id": "issue_14964_body",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7f50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3941741982_chunk_0",
+    "artifact_id": "issue_14964_comment_3941741982",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3941741982",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc170>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3942591120_chunk_0",
+    "artifact_id": "issue_14964_comment_3942591120",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3942591120",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7860>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3943248627_chunk_0",
+    "artifact_id": "issue_14964_comment_3943248627",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3943248627",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc890>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3946134790_chunk_0",
+    "artifact_id": "issue_14964_comment_3946134790",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3946134790",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6ab0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3946979735_chunk_0",
+    "artifact_id": "issue_14964_comment_3946979735",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3946979735",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdd00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3947015691_chunk_0",
+    "artifact_id": "issue_14964_comment_3947015691",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3947015691",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7b90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14964_comment_3947129281_chunk_0",
+    "artifact_id": "issue_14964_comment_3947129281",
+    "issue_number": 14964,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14964#issuecomment-3947129281",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd070>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14972_body_chunk_0",
+    "artifact_id": "issue_14972_body",
+    "issue_number": 14972,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14972",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7ec0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14974_body_chunk_0",
+    "artifact_id": "issue_14974_body",
+    "issue_number": 14974,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14974",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcda30>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14977_body_chunk_0",
+    "artifact_id": "issue_14977_body",
+    "issue_number": 14977,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14977",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da72c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14976_body_chunk_0",
+    "artifact_id": "issue_14976_body",
+    "issue_number": 14976,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14976",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd2e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14949_body_chunk_0",
+    "artifact_id": "issue_14949_body",
+    "issue_number": 14949,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14949",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7410>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14949_body_chunk_1",
+    "artifact_id": "issue_14949_body",
+    "issue_number": 14949,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14949",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdac0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14949_body_chunk_2",
+    "artifact_id": "issue_14949_body",
+    "issue_number": 14949,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14949",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6840>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14949_body_chunk_3",
+    "artifact_id": "issue_14949_body",
+    "issue_number": 14949,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14949",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd160>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14973_body_chunk_0",
+    "artifact_id": "issue_14973_body",
+    "issue_number": 14973,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14973",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5ca0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_body_chunk_0",
+    "artifact_id": "issue_14299_body",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdca0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3493559629_chunk_0",
+    "artifact_id": "issue_14299_comment_3493559629",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3493559629",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7380>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3503220328_chunk_0",
+    "artifact_id": "issue_14299_comment_3503220328",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3503220328",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc7a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3503275437_chunk_0",
+    "artifact_id": "issue_14299_comment_3503275437",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3503275437",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7c50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3507237735_chunk_0",
+    "artifact_id": "issue_14299_comment_3507237735",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3507237735",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc980>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3633632390_chunk_0",
+    "artifact_id": "issue_14299_comment_3633632390",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3633632390",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da67b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3633715863_chunk_0",
+    "artifact_id": "issue_14299_comment_3633715863",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3633715863",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdfa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3801339595_chunk_0",
+    "artifact_id": "issue_14299_comment_3801339595",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3801339595",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7710>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3801388390_chunk_0",
+    "artifact_id": "issue_14299_comment_3801388390",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3801388390",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdca0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3943338292_chunk_0",
+    "artifact_id": "issue_14299_comment_3943338292",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3943338292",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7260>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3944664086_chunk_0",
+    "artifact_id": "issue_14299_comment_3944664086",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3944664086",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc770>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3944914386_chunk_0",
+    "artifact_id": "issue_14299_comment_3944914386",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3944914386",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5c40>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3945163786_chunk_0",
+    "artifact_id": "issue_14299_comment_3945163786",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3945163786",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd940>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3945651594_chunk_0",
+    "artifact_id": "issue_14299_comment_3945651594",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3945651594",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6c90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3945687827_chunk_0",
+    "artifact_id": "issue_14299_comment_3945687827",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3945687827",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdd00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14299_comment_3945692414_chunk_0",
+    "artifact_id": "issue_14299_comment_3945692414",
+    "issue_number": 14299,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14299#issuecomment-3945692414",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7e30>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14943_body_chunk_0",
+    "artifact_id": "issue_14943_body",
+    "issue_number": 14943,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14943",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dccce0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14951_body_chunk_0",
+    "artifact_id": "issue_14951_body",
+    "issue_number": 14951,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14951",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da67b0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14971_body_chunk_0",
+    "artifact_id": "issue_14971_body",
+    "issue_number": 14971,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14971",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc170>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14971_comment_3944190529_chunk_0",
+    "artifact_id": "issue_14971_comment_3944190529",
+    "issue_number": 14971,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14971#issuecomment-3944190529",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7530>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14954_body_chunk_0",
+    "artifact_id": "issue_14954_body",
+    "issue_number": 14954,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14954",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdac0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14969_body_chunk_0",
+    "artifact_id": "issue_14969_body",
+    "issue_number": 14969,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14969",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da7500>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14968_body_chunk_0",
+    "artifact_id": "issue_14968_body",
+    "issue_number": 14968,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14968",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc2c0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14968_comment_3943068820_chunk_0",
+    "artifact_id": "issue_14968_comment_3943068820",
+    "issue_number": 14968,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14968#issuecomment-3943068820",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da6ff0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14968_comment_3943116963_chunk_0",
+    "artifact_id": "issue_14968_comment_3943116963",
+    "issue_number": 14968,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14968#issuecomment-3943116963",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd280>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14963_body_chunk_0",
+    "artifact_id": "issue_14963_body",
+    "issue_number": 14963,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14963",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5d00>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14966_body_chunk_0",
+    "artifact_id": "issue_14966_body",
+    "issue_number": 14966,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14966",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd6a0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14965_body_chunk_0",
+    "artifact_id": "issue_14965_body",
+    "issue_number": 14965,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14965",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5ac0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14959_body_chunk_0",
+    "artifact_id": "issue_14959_body",
+    "issue_number": 14959,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14959",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc140>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14958_body_chunk_0",
+    "artifact_id": "issue_14958_body",
+    "issue_number": 14958,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14958",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da79e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14957_body_chunk_0",
+    "artifact_id": "issue_14957_body",
+    "issue_number": 14957,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14957",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcd160>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14956_body_chunk_0",
+    "artifact_id": "issue_14956_body",
+    "issue_number": 14956,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14956",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da5ac0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14950_body_chunk_0",
+    "artifact_id": "issue_14950_body",
+    "issue_number": 14950,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14950",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcdfa0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14950_comment_3938419605_chunk_0",
+    "artifact_id": "issue_14950_comment_3938419605",
+    "issue_number": 14950,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14950#issuecomment-3938419605",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622da79e0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  },
+  {
+    "chunk_id": "issue_14940_body_chunk_0",
+    "artifact_id": "issue_14940_body",
+    "issue_number": 14940,
+    "source_url": "https://github.com/fastapi/fastapi/pull/14940",
+    "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4622dcc980>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "extraction": {
+      "entities": [],
+      "claims": []
+    }
+  }
+]

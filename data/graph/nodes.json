@@ -1,0 +1,242 @@
+[
+  {
+    "id": "pyproject.toml",
+    "type": "config"
+  },
+  {
+    "id": "docs",
+    "type": "docs"
+  },
+  {
+    "id": "entrypoint",
+    "type": "concept"
+  },
+  {
+    "id": "route",
+    "type": "concept"
+  },
+  {
+    "id": "methods",
+    "type": "concept"
+  },
+  {
+    "id": "operationId",
+    "type": "concept"
+  },
+  {
+    "id": "set",
+    "type": "concept"
+  },
+  {
+    "id": "list",
+    "type": "concept"
+  },
+  {
+    "id": "maintainer",
+    "type": "role"
+  },
+  {
+    "id": "label",
+    "type": "concept"
+  },
+  {
+    "id": "bug fix",
+    "type": "concept"
+  },
+  {
+    "id": "operation_id",
+    "type": "concept"
+  },
+  {
+    "id": "PR",
+    "type": "concept"
+  },
+  {
+    "id": "github",
+    "type": "API"
+  },
+  {
+    "id": "fastapi",
+    "type": "framework"
+  },
+  {
+    "id": "Sebastian",
+    "type": "person"
+  },
+  {
+    "id": "feedback",
+    "type": "concept"
+  },
+  {
+    "id": "other",
+    "type": "concept"
+  },
+  {
+    "id": "CodSpeed Performance Report",
+    "type": "report"
+  },
+  {
+    "id": "amulyakh456:test-annotated-forwardref",
+    "type": "branch"
+  },
+  {
+    "id": "master",
+    "type": "branch"
+  },
+  {
+    "id": "dc0029f",
+    "type": "commit"
+  },
+  {
+    "id": "f3f4981",
+    "type": "commit"
+  },
+  {
+    "id": "eacbce2",
+    "type": "commit"
+  },
+  {
+    "id": "test",
+    "type": "module"
+  },
+  {
+    "id": "test_forwardref_in_annotation",
+    "type": "module"
+  },
+  {
+    "id": "test_dependency_wrapped.py",
+    "type": "module"
+  },
+  {
+    "id": "annotation",
+    "type": "concept"
+  },
+  {
+    "id": "ForwardRef",
+    "type": "annotated dependency test"
+  },
+  {
+    "id": "module",
+    "type": "module"
+  },
+  {
+    "id": "dependency test",
+    "type": "test"
+  },
+  {
+    "id": "copies",
+    "type": "concept"
+  },
+  {
+    "id": "API",
+    "type": "framework"
+  },
+  {
+    "id": "Heads-up",
+    "type": "concept"
+  },
+  {
+    "id": "reminder",
+    "type": "concept"
+  },
+  {
+    "id": "software discussions",
+    "type": "concept"
+  },
+  {
+    "id": "files",
+    "type": "entity"
+  },
+  {
+    "id": "libraries",
+    "type": "entity"
+  },
+  {
+    "id": "frameworks",
+    "type": "entity"
+  },
+  {
+    "id": "APIs",
+    "type": "entity"
+  },
+  {
+    "id": "configs",
+    "type": "entity"
+  },
+  {
+    "id": "concepts",
+    "type": "entity"
+  },
+  {
+    "id": "user",
+    "type": "concept"
+  },
+  {
+    "id": "Docs",
+    "type": "concept"
+  },
+  {
+    "id": "Pages",
+    "type": "concept"
+  },
+  {
+    "id": "commit",
+    "type": "concept"
+  },
+  {
+    "id": "FastAPI",
+    "type": "framework"
+  },
+  {
+    "id": "Tiangolo",
+    "type": "concept"
+  },
+  {
+    "id": "translations",
+    "type": "concept"
+  },
+  {
+    "id": "PRs",
+    "type": "concept"
+  },
+  {
+    "id": "contributors",
+    "type": "concept"
+  },
+  {
+    "id": "OpenAPI",
+    "type": "standard"
+  },
+  {
+    "id": "Swagger UI",
+    "type": "library"
+  },
+  {
+    "id": "Pydantic",
+    "type": "library"
+  },
+  {
+    "id": "GraphQL",
+    "type": "query language"
+  },
+  {
+    "id": "SQL databases",
+    "type": "concept"
+  },
+  {
+    "id": "static files",
+    "type": "concept"
+  },
+  {
+    "id": "stream JSON lines",
+    "type": "concept"
+  },
+  {
+    "id": "testing",
+    "type": "concept"
+  },
+  {
+    "id": "virtual environments",
+    "type": "concept"
+  }
+]

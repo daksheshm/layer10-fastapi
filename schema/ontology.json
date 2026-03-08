@@ -1,0 +1,234 @@
+{
+  "version": "1.0.0",
+  "description": "Ontology for GitHub issue/PR memory graph (FastAPI corpus)",
+  "entity_types": {
+    "Person": {
+      "description": "A GitHub user or contributor",
+      "examples": [
+        "tiangolo",
+        "YuriiMotov",
+        "github-actions[bot]"
+      ]
+    },
+    "Component": {
+      "description": "A source file, module, or subsystem in the codebase",
+      "examples": [
+        "routing.py",
+        "dependencies module",
+        "middleware stack"
+      ]
+    },
+    "Feature": {
+      "description": "A capability, behaviour, or API surface exposed by the project",
+      "examples": [
+        "operationId generation",
+        "dependency injection",
+        "WebSocket support"
+      ]
+    },
+    "Bug": {
+      "description": "A tracked defect or unexpected behaviour",
+      "examples": [
+        "non-deterministic operationId",
+        "assert stripped by python -O"
+      ]
+    },
+    "PullRequest": {
+      "description": "A GitHub pull request",
+      "examples": [
+        "PR #15070",
+        "PR #14932"
+      ]
+    },
+    "Issue": {
+      "description": "A GitHub issue (bug report, feature request, question)",
+      "examples": [
+        "Issue #13175"
+      ]
+    },
+    "Library": {
+      "description": "An external Python package or framework",
+      "examples": [
+        "FastAPI",
+        "Pydantic",
+        "Starlette",
+        "Uvicorn"
+      ]
+    },
+    "Concept": {
+      "description": "An abstract programming or architectural concept",
+      "examples": [
+        "ForwardRef",
+        "ASGI scope",
+        "dependency override"
+      ]
+    },
+    "Config": {
+      "description": "A configuration file or setting",
+      "examples": [
+        "pyproject.toml",
+        "mkdocs.yml",
+        "entrypoint"
+      ]
+    },
+    "Test": {
+      "description": "A test file, test case, or test suite",
+      "examples": [
+        "test_forwardref_in_annotation.py",
+        "regression test"
+      ]
+    }
+  },
+  "relation_types": {
+    "fixes": {
+      "description": "A PR or commit resolves a bug or issue",
+      "domain": [
+        "PullRequest"
+      ],
+      "range": [
+        "Bug",
+        "Issue"
+      ]
+    },
+    "closes": {
+      "description": "A PR or action closes an issue",
+      "domain": [
+        "PullRequest",
+        "Person"
+      ],
+      "range": [
+        "Issue",
+        "PullRequest"
+      ]
+    },
+    "depends_on": {
+      "description": "A component or feature depends on another",
+      "domain": [
+        "Component",
+        "Feature",
+        "Library"
+      ],
+      "range": [
+        "Component",
+        "Feature",
+        "Library",
+        "Concept"
+      ]
+    },
+    "uses": {
+      "description": "One entity uses another",
+      "domain": [
+        "Component",
+        "Feature",
+        "PullRequest"
+      ],
+      "range": [
+        "Library",
+        "Component",
+        "Concept",
+        "Config"
+      ]
+    },
+    "defines": {
+      "description": "A component or file defines an entity",
+      "domain": [
+        "Component",
+        "Config"
+      ],
+      "range": [
+        "Feature",
+        "Concept",
+        "Config"
+      ]
+    },
+    "imports": {
+      "description": "A module imports another",
+      "domain": [
+        "Component"
+      ],
+      "range": [
+        "Library",
+        "Component"
+      ]
+    },
+    "reviews": {
+      "description": "A person reviews or comments on a PR",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "PullRequest"
+      ]
+    },
+    "authors": {
+      "description": "A person authored a PR or issue",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "PullRequest",
+        "Issue"
+      ]
+    },
+    "supersedes": {
+      "description": "One PR or fix supersedes another",
+      "domain": [
+        "PullRequest"
+      ],
+      "range": [
+        "PullRequest"
+      ]
+    },
+    "tests": {
+      "description": "A test file covers a component or feature",
+      "domain": [
+        "Test"
+      ],
+      "range": [
+        "Component",
+        "Feature",
+        "Bug",
+        "Concept"
+      ]
+    },
+    "configures": {
+      "description": "A config entity configures a component or feature",
+      "domain": [
+        "Config"
+      ],
+      "range": [
+        "Component",
+        "Feature",
+        "Library"
+      ]
+    },
+    "requires": {
+      "description": "A feature or component requires another to function",
+      "domain": [
+        "Feature",
+        "Component"
+      ],
+      "range": [
+        "Feature",
+        "Component",
+        "Library",
+        "Concept"
+      ]
+    }
+  },
+  "claim_schema": {
+    "required_fields": [
+      "subject",
+      "relation",
+      "object",
+      "evidence_excerpt",
+      "confidence"
+    ],
+    "optional_fields": [
+      "subject_type",
+      "object_type",
+      "negated",
+      "temporal_qualifier"
+    ]
+  }
+}

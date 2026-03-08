@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExtractionOutput",
+  "description": "Schema for validating structured extraction output from the LLM",
+  "type": "object",
+  "required": ["entities", "claims"],
+  "additionalProperties": false,
+
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Person", "Component", "Feature", "Bug",
+              "PullRequest", "Issue", "Library", "Concept",
+              "Config", "Test", "unknown"
+            ]
+          }
+        }
+      }
+    },
+
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["subject", "relation", "object", "evidence_excerpt"],
+        "additionalProperties": false,
+        "properties": {
+          "subject": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "fixes", "closes", "depends_on", "uses",
+              "defines", "imports", "reviews", "authors",
+              "supersedes", "tests", "configures", "requires",
+              "supports", "mentions", "relates_to"
+            ]
+          },
+          "object": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "evidence_excerpt": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 500
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0
+          },
+          "subject_type": {
+            "type": "string"
+          },
+          "object_type": {
+            "type": "string"
+          },
+          "negated": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}
