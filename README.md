@@ -355,6 +355,27 @@ superseded = true
 
 rather than deleted.
 
+### Artifact Deduplication
+
+GitHub discussions may contain duplicated content due to quoting,
+cross-posting, or repeated comments.
+
+In this prototype pipeline artifacts are normalized but not aggressively
+deduplicated because GitHub comments rarely appear as exact duplicates.
+
+In a production deployment artifact deduplication would be implemented
+using a two-stage approach:
+
+1. **Exact duplicate detection**
+   - SHA256 hash of normalized artifact text.
+
+2. **Near-duplicate detection**
+   - MinHash / Jaccard similarity over token shingles.
+   - Used to detect quoted replies or repeated comments.
+
+Duplicate artifacts would share a canonical `artifact_id` while preserving
+their original source metadata for provenance.
+
 ---
 
 # Memory Graph
