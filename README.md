@@ -123,7 +123,7 @@ retrieve_context.py / graph_search.py
 
 ```bash
 # clone project
-cd ddgop/layer10-fastapi-memory
+cd layer10-fastapi/
 
 # virtual environment
 python -m venv venv
