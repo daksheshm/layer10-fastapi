@@ -1,16 +1,64 @@
 # Layer10 Take-Home — Grounded Long-Term Memory via Structured Extraction
 
-A pipeline that turns GitHub issue/PR discussions into a queryable, grounded memory graph with evidence provenance, deduplication, and an interactive visualisation.
+A pipeline that converts GitHub issue and pull-request discussions into a **queryable, grounded memory graph** with strong evidence provenance, deduplication, and an interactive visualization layer.
+
+The system demonstrates how scattered technical discussions can be transformed into **structured long-term memory** while preserving traceability back to the original source text.
 
 ---
 
-## Corpus
+# Corpus
 
-**Source:** `fastapi/fastapi` GitHub repository — closed issues and pull requests  
-**Size:** ~100 issues/PRs with comments (~500–1 000 total artifacts)  
-**Why:** Dense technical discussion with decisions, reversals, cross-references, and identity resolution challenges (bots, aliases, multiple maintainers).
+**Source:** `fastapi/fastapi` GitHub repository
+**Artifacts:** closed issues, pull requests, comments, and review events
 
-**Reproduce the download:**
+Approximate dataset size:
+
+| Item            | Count     |
+| --------------- | --------- |
+| Issues / PRs    | ~100      |
+| Comments        | ~400–900  |
+| Total artifacts | ~500–1000 |
+
+Why this corpus:
+
+* rich technical discussions
+* decisions and reversals
+* cross-references between files/components
+* multiple maintainers and reviewers
+* identity resolution challenges (aliases, bots)
+
+These properties make the dataset suitable for testing **long-term knowledge extraction**.
+
+---
+
+# Data Ingestion
+
+Artifacts are fetched from the GitHub REST API and normalized into a flat artifact list.
+
+```
+Issue Body → artifact
+Issue Comment → artifact
+Pull Request Review → artifact
+```
+
+Each artifact includes:
+
+```
+artifact_id
+issue_number
+artifact_type
+author
+timestamp
+labels
+assignees
+source_url
+text
+```
+
+Bot-generated comments (e.g. `github-actions[bot]`, `dependabot[bot]`) are flagged to prevent noise during extraction.
+
+### Reproduce download
+
 ```bash
 export GITHUB_TOKEN=<your_token>
 python scripts/ingestion/fetch_github.py
@@ -18,91 +66,96 @@ python scripts/ingestion/fetch_github.py
 
 ---
 
-## Architecture
+# Architecture
 
 ```
-Raw Issues (GitHub API)
-        │
-        ▼
-normalize_artifacts.py   → data/artifacts/artifacts.json
-        │
-        ▼
-chunk_artifacts.py        → data/chunks/chunks.json
-        │
-        ▼
-extract_claims_ollama.py  → data/extractions/raw_extractions.json
-        │
-        ▼
-validate_extractions.py   → data/extractions/validated_extractions.json
-        │
-        ├─────────────────────────────────────────┐
-        ▼                                         ▼
+GitHub API
+     │
+     ▼
+fetch_github.py
+     │
+     ▼
+normalize_artifacts.py
+→ data/artifacts/artifacts.json
+     │
+     ▼
+chunk_artifacts.py
+→ data/chunks/chunks.json
+     │
+     ▼
+extract_claims_ollama.py
+→ data/extractions/raw_extractions.json
+     │
+     ▼
+validate_extractions.py
+→ data/extractions/validated_extractions.json
+     │
+     ├─────────────────────────────────────────┐
+     ▼                                         ▼
 resolve_entities.py                     deduplicate_claims.py
-→ data/resolved/canonical_map.json     → data/graph/claims_deduped.json
-→ data/resolved/alias_index.json       → data/graph/conflict_report.json
-→ data/resolved/merge_log.json
-        │                                         │
-        └─────────────────────────────────────────┘
-                            │
-                            ▼
-                      build_graph.py
-                → data/graph/nodes.json
-                → data/graph/edges.json
-                            │
-                            ▼
-                   normalize_entities.py
-                → data/graph/nodes_normalized.json
-                → data/graph/edges_normalized.json
-                            │
-                   ┌────────┴────────┐
-                   ▼                 ▼
-          build_embeddings.py    api/main.py
-          → data/embeddings/     (FastAPI server)
-                   │
-                   ▼
-          retrieve_context.py
-          graph_search.py
+→ canonical_map.json                    → claims_deduped.json
+→ alias_index.json                      → conflict_report.json
+→ merge_log.json
+     │                                         │
+     └─────────────────────────────────────────┘
+                        │
+                        ▼
+                   build_graph.py
+            → nodes.json / edges.json
+                        │
+                        ▼
+             normalize_entities.py
+        → nodes_normalized.json / edges_normalized.json
+                        │
+              ┌─────────┴─────────┐
+              ▼                   ▼
+      build_embeddings.py      FastAPI server
+      → TF-IDF index           api/main.py
+              │
+              ▼
+retrieve_context.py / graph_search.py
 ```
 
 ---
 
-## Setup
+# Setup
 
 ```bash
-# Clone / unzip the project
+# clone project
 cd ddgop/layer10-fastapi-memory
 
-# Create a virtual environment
+# virtual environment
 python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+source venv/bin/activate
 
-# Install dependencies
+# dependencies
 pip install -r requirements.txt
 
-# Install and start Ollama (for extraction)
-# https://ollama.com/download
+# install Ollama
+https://ollama.com/download
+
 ollama pull llama3
 ollama serve
 ```
 
 ---
 
-## Running the Pipeline (end-to-end)
+# Running the Pipeline
 
 ```bash
 # 1. Fetch GitHub issues
 GITHUB_TOKEN=<token> python scripts/ingestion/fetch_github.py
 
-# 2. Normalise artifacts
+# 2. Normalize artifacts
 python scripts/preprocessing/normalize_artifacts.py
 
 # 3. Chunk text
 python scripts/preprocessing/chunk_artifacts.py
 
-# 4. Extract claims (requires Ollama running)
+# 4. Extract claims
 python scripts/extraction/extract_claims_ollama.py
 
-# 5. Validate and repair extractions
+# 5. Validate extractions
 python scripts/extraction/validate_extractions.py
 
 # 6. Resolve entity aliases
@@ -115,121 +168,521 @@ python scripts/deduplication/deduplicate_claims.py
 python scripts/graph/build_graph.py
 python scripts/graph/normalize_entities.py
 
-# 9. Build TF-IDF embeddings for retrieval
+# 9. Build retrieval index
 python scripts/retrieval/build_embeddings.py
 ```
 
 ---
 
-## Querying
+# Preprocessing
 
-**CLI search:**
+## Artifact Normalization
+
+GitHub issues and PRs are flattened into a list of artifacts:
+
+```
+issue_body
+comment
+```
+
+Each artifact preserves metadata such as:
+
+* issue number
+* author
+* labels
+* timestamps
+* source URL
+
+---
+
+## Chunking
+
+Artifacts are split into **overlapping sentence-aware chunks** to fit within LLM context limits.
+
+Chunk properties:
+
+```
+chunk_id
+artifact_id
+issue_number
+offset_start
+offset_end
+text
+author
+timestamp
+source_url
+```
+
+Offsets allow claims to reference the **exact text span** supporting the extracted fact.
+
+---
+
+# Extraction
+
+Claims and entities are extracted using a local LLM.
+
+Model:
+
+```
+Llama-3 via Ollama
+```
+
+Inference settings:
+
+```
+temperature = 0
+top_p = 1
+```
+
+This ensures **deterministic extraction**.
+
+Extraction produces:
+
+```
+entities
+claims
+confidence scores
+evidence excerpts
+```
+
+Example claim:
+
+```
+routing.py --imports--> starlette.routing
+```
+
+Each claim must include a verbatim evidence phrase.
+
+---
+
+# Validation & Repair
+
+LLM output is validated against a strict JSON schema.
+
+The validation layer performs:
+
+* schema validation
+* entity repair
+* relation normalization
+* automatic entity creation when referenced by claims
+* confidence filtering
+
+Outputs:
+
+```
+validated_extractions.json
+validation_report.json
+```
+
+Metrics recorded:
+
+* entities extracted
+* claims extracted
+* retention after validation
+* validation issues
+
+These metrics allow monitoring extraction quality.
+
+---
+
+# Deduplication
+
+## Entity Canonicalization
+
+Entity names are normalized and clustered using fuzzy similarity.
+
+Algorithm:
+
+```
+token_set similarity (rapidfuzz)
+threshold = ENTITY_SIM_THRESHOLD
+```
+
+Canonical name selection:
+
+```
+highest frequency
+→ longest name
+→ alphabetical
+```
+
+Outputs:
+
+```
+canonical_map.json
+alias_index.json
+merge_log.json
+```
+
+All merges are logged for auditability.
+
+---
+
+## Claim Deduplication
+
+Claims are grouped by:
+
+```
+(subject, relation, object)
+```
+
+Evidence from all occurrences is merged.
+
+Duplicate evidence snippets are removed using fuzzy similarity.
+
+Each claim stores:
+
+```
+confidence
+support_count
+evidence list
+first_seen
+last_seen
+```
+
+Conflicting claims are recorded in:
+
+```
+conflict_report.json
+```
+
+Lower-support claims are marked:
+
+```
+superseded = true
+```
+
+rather than deleted.
+
+---
+
+# Memory Graph
+
+Graph structure:
+
+## Nodes
+
+```
+id
+type
+aliases
+frequency
+first_seen
+last_seen
+```
+
+## Edges
+
+```
+subject
+relation
+object
+confidence
+support_count
+evidence
+first_seen
+last_seen
+superseded
+conflict_with
+```
+
+Claim IDs are deterministically generated from:
+
+```
+SHA256(subject|relation|object)
+```
+
+ensuring reproducible graph construction.
+
+---
+
+# Retrieval
+
+Query pipeline:
+
+```
+question
+↓
+TF-IDF search over chunks
+↓
+entity detection in top chunks
+↓
+graph expansion
+↓
+context pack
+```
+
+TF-IDF configuration:
+
+```
+unigrams + bigrams
+sublinear TF
+cosine similarity
+```
+
+Entity mentions are detected via substring matching against node IDs.
+
+---
+
+## Context Pack
+
+Each query returns:
+
+```
+{
+  question
+  evidence_snippets
+  graph_claims
+  entities_found
+  total_evidence
+  total_claims
+}
+```
+
+Every result contains **direct source URLs and offsets** for auditing.
+
+---
+
+# Querying
+
+### CLI Retrieval
+
 ```bash
 python scripts/retrieval/retrieve_context.py "Who reviews PRs about routing?"
 python scripts/retrieval/retrieve_context.py "What does routing.py depend on?"
 ```
 
-**CLI graph exploration:**
+### Graph Exploration
+
 ```bash
 python scripts/retrieval/graph_search.py "routing.py" --depth 2
 python scripts/retrieval/graph_search.py "tiangolo" --relation reviews --reverse
 ```
 
-**REST API:**
+### REST API
+
 ```bash
 uvicorn api.main:app --reload --port 8000
 ```
 
-| Endpoint | Description |
-|---|---|
-| `GET /` | Health check + counts |
-| `GET /stats` | Node/edge statistics |
-| `GET /nodes?type=Person` | List nodes (with type filter) |
-| `GET /node/{entity}` | Full node record + neighbor summary |
-| `GET /memory?entity=routing.py` | Outgoing claims for an entity |
-| `GET /neighbors?entity=tiangolo` | All edges touching an entity |
-| `GET /search?q=operationId+bug` | TF-IDF evidence search |
-| `GET /context?q=Who+fixed+operationId` | Full grounded context pack |
-| `GET /evidence/{claim_id}` | All evidence for one claim |
-| `GET /conflicts` | Conflicting claim pairs |
+Endpoints:
+
+| Endpoint               | Description            |
+| ---------------------- | ---------------------- |
+| `/`                    | Health check           |
+| `/stats`               | Graph statistics       |
+| `/nodes`               | Node listing           |
+| `/node/{entity}`       | Node + neighbors       |
+| `/memory`              | Claims for entity      |
+| `/neighbors`           | Edge lookup            |
+| `/search`              | TF-IDF evidence search |
+| `/context`             | Full context pack      |
+| `/evidence/{claim_id}` | Evidence for claim     |
+| `/conflicts`           | Conflicting claims     |
 
 ---
 
-## Visualisation
+# Visualization
+
+Interactive graph viewer:
 
 ```bash
 python visualization/graph_viewer.py
-# Open visualization/memory_graph.html in any browser
+```
 
-# Filters:
-python visualization/graph_viewer.py --type Person
-python visualization/graph_viewer.py --relation fixes --min-support 2
-python visualization/graph_viewer.py --limit 100
+Open:
+
+```
+visualization/memory_graph.html
+```
+
+Features:
+
+* entity relationship graph
+* filtering by relation / type
+* minimum evidence support
+* clickable evidence links
+
+---
+
+# Ontology
+
+Defined in:
+
+```
+schema/ontology.json
+```
+
+### Entity Types
+
+```
+Person
+Component
+Feature
+Bug
+PullRequest
+Issue
+Library
+Concept
+Config
+Test
+```
+
+### Relation Types
+
+```
+fixes
+closes
+depends_on
+uses
+defines
+imports
+reviews
+authors
+supersedes
+tests
+configures
+requires
+supports
+mentions
+relates_to
 ```
 
 ---
 
-## Ontology
+# Long-Term Correctness
 
-Defined in `schema/ontology.json`.
+The system models evolving knowledge:
 
-**Entity types:** `Person`, `Component`, `Feature`, `Bug`, `PullRequest`, `Issue`, `Library`, `Concept`, `Config`, `Test`
+```
+first_seen
+last_seen
+superseded
+conflict_with
+```
 
-**Relation types:** `fixes`, `closes`, `depends_on`, `uses`, `defines`, `imports`, `reviews`, `authors`, `supersedes`, `tests`, `configures`, `requires`, `supports`, `mentions`, `relates_to`
+These allow representing:
 
----
-
-## Design Decisions
-
-### Extraction
-- **Model:** Llama 3 via Ollama (free, local, no API key).
-- **Prompt:** Zero-shot with strict JSON schema + controlled vocabulary for entity/relation types.
-- **Confidence:** The model emits a 0–1 confidence per claim; claims below `EXTRACTION_MIN_CONFIDENCE` (default 0.5) are discarded at validation time.
-- **Retries:** Up to 2 retries per chunk on parse failure; partial JSON is recovered with regex.
-
-### Deduplication
-- **Entity resolution:** Trigram-based Jaccard similarity (via `rapidfuzz`). Entities above `ENTITY_SIM_THRESHOLD` (default 0.82) are merged; the most-frequent form becomes canonical. All merges are logged in `merge_log.json` for auditability and reversal.
-- **Claim dedup:** Claims grouped by `(canonical_subject, relation, canonical_object)`. Evidence lists from all matching chunks are merged; duplicate evidence is detected via `fuzz.token_set_ratio`.
-- **Conflicts:** Claims sharing the same `(subject, object)` but with different relations are flagged in `conflict_report.json`. Low-support claims are marked `superseded: true` rather than deleted.
-
-### Grounding
-Every claim stores a list of `evidence` objects, each containing:
-- `excerpt` — verbatim phrase from the source text
-- `source_url` — direct link to the GitHub comment/issue
-- `artifact_id`, `chunk_id` — internal traceback identifiers
-- `offset_start`, `offset_end` — character offsets in the original artifact text
-- `timestamp`, `author`
-
-### Retrieval
-- **Chunk search:** TF-IDF (unigrams + bigrams, sublinear TF) with cosine similarity. No GPU required.
-- **Graph expansion:** After finding the top-K chunks, entity names found in those chunks are used to pull related claims from the graph.
-- **Context pack:** Returns both ranked evidence snippets and graph claims in a single structured response.
-
-### Long-term correctness
-- `superseded` flag distinguishes "was true" from "is true now".
-- `first_seen` / `last_seen` timestamps on nodes and edges.
-- Extraction version tracking is embedded in file naming conventions; re-running any step produces a new output without overwriting the old one (add `--output` flag or timestamp suffix).
+```
+past facts
+current facts
+conflicting claims
+decision reversals
+```
 
 ---
 
-## Adapting to Layer10's Target Environment
+# Adapting to Layer10's Target Environment
 
-### Unstructured + structured fusion
-In production (email, Slack, Jira/Linear), the ontology would add entity types like `Thread`, `Channel`, `Project`, `Sprint`, `Decision`, and relation types like `blocks`, `assigned_to`, `mentioned_in`, `decided_in`. Jira ticket IDs and Slack thread permalinks would serve as grounding anchors.
+## Unstructured + Structured Fusion
 
-### Long-term memory vs ephemeral context
-- Durable memory: high-support (≥3 sources) claims that survive multiple extraction runs.
-- Ephemeral: single-source claims with low confidence held in a "staging" store for human review.
-- Decay: claims not re-evidenced within a configurable TTL window are downgraded to `stale`.
+For production environments (email, Slack, Jira):
 
-### Grounding & safety
-- Every API response carries `source_url` and `offset` so any claim can be audited.
-- Deletions/redactions: when a source is deleted, all claims whose *only* evidence points to that source are immediately marked `orphaned` and excluded from retrieval.
+New entity types:
 
-### Permissions
-The `evidence` objects record `artifact_id` and `source_url`. An ACL layer maps users → readable artifact IDs. At query time, evidence items are filtered to the user's readable set before building the context pack.
+```
+Thread
+Channel
+Project
+Sprint
+Decision
+```
 
-### Operational reality
-- Incremental ingestion: the pipeline is idempotent; run `fetch_github.py` again and only new/updated issues are re-processed (use `updated_at` watermark).
-- Cost: Llama 3 local inference at ~2–4 chunks/sec on a consumer laptop; a GPU machine or batch API call would be used in production.
-- Evaluation: a small golden-set of (question, expected_claim) pairs is checked after every pipeline run. Precision/recall on the golden set is logged to `data/extractions/validation_report.json`.
+New relations:
+
+```
+assigned_to
+blocks
+mentioned_in
+decided_in
+```
+
+---
+
+## Long-Term Memory
+
+Durable memory:
+
+```
+claims with ≥3 supporting sources
+```
+
+Ephemeral memory:
+
+```
+low-confidence single-source claims
+```
+
+A decay process downgrades stale claims.
+
+---
+
+## Grounding & Safety
+
+Every claim contains:
+
+```
+source_url
+artifact_id
+offset_start
+offset_end
+```
+
+If a source is deleted:
+
+```
+claims become orphaned
+```
+
+and are excluded from retrieval.
+
+---
+
+## Permissions
+
+Evidence objects reference artifact IDs.
+
+An ACL layer filters evidence based on user access to underlying artifacts.
+
+---
+
+## Operational Considerations
+
+Incremental ingestion:
+
+```
+updated_at watermark
+```
+
+Only new artifacts are processed.
+
+Cost:
+
+```
+Llama-3 local inference
+≈ 2–4 chunks/sec on laptop
+```
+
+Evaluation:
+
+A golden question set verifies retrieval accuracy after pipeline runs.
+
+Metrics stored in:
+
+```
+data/extractions/validation_report.json
+```
+
+---
+
+# Reproducibility
+
+The repository contains:
+
+* ingestion scripts
+* extraction pipeline
+* graph construction
+* retrieval API
+* visualization tools
+
+Running the steps above reproduces the full memory graph from raw GitHub data.
